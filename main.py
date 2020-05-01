@@ -39,6 +39,7 @@ def main():
 
 if __name__ == '__main__':
     ## main()
+    ## valid data
     ## x, array of array, (frames 1106, time_step, 40)
     ## y, array of array, (frames 1106, sentence_len)
     speech_train, speech_valid, speech_test, transcript_train, transcript_valid = load_data()
